@@ -1,0 +1,52 @@
+{
+    "coffees": {
+        "affogato": {
+            "title": "Affogato",
+            "imgSrc": "https://www.latteartguide.com/wp-content/uploads/2016/01/affogato.jpg"
+        },
+        "cafeLatte": {
+            "title": "Cafe Latte",
+            "imgSrc": "https://www.latteartguide.com/wp-content/uploads/2016/01/cafe-latte.jpg"
+        },
+        "cappuccino": {
+            "title": "Cappuccino",
+            "imgSrc": "https://www.latteartguide.com/wp-content/uploads/2016/01/Cappuccino.jpg"
+        },
+        "doubleEspresso": {
+            "title": "Double Espresso",
+            "imgSrc": "https://www.latteartguide.com/wp-content/uploads/2016/01/double-espresso.jpg"
+        },
+        "espresso": {
+            "title": "Espresso",
+            "imgSrc": "https://www.latteartguide.com/wp-content/uploads/2016/01/432856237_da68d53578_z.jpg"
+        },
+        "flatWhite": {
+            "title": "Flat White",
+            "imgSrc": "https://www.latteartguide.com/wp-content/uploads/2016/01/flat-white.jpg"
+        },
+        "longBlack": {
+            "title": "Long Black",
+            "imgSrc": "https://www.latteartguide.com/wp-content/uploads/2016/01/long-black.jpg"
+        },
+        "longMacchiato": {
+            "title": "Long Macchiato",
+            "imgSrc": "https://www.latteartguide.com/wp-content/uploads/2016/01/long-macchiato.jpg"
+        },
+        "mochaCoffee": {
+            "title": "Mocha Coffee",
+            "imgSrc": "https://www.latteartguide.com/wp-content/uploads/2016/01/mocha-coffee.jpg"
+        },
+        "piccoloLatte": {
+            "title": "Piccolo Latte",
+            "imgSrc": "https://www.latteartguide.com/wp-content/uploads/2016/01/piccolo-latte.jpg"
+        },
+        "ristretto": {
+            "title": "Ristretto",
+            "imgSrc": "https://www.latteartguide.com/wp-content/uploads/2016/01/ristretto.jpg"
+        },
+        "shortMacchiato": {
+            "title": "Short Macchiato",
+            "imgSrc": "https://www.latteartguide.com/wp-content/uploads/2016/01/short-macchiato.jpg"
+        }
+    }
+}

@@ -1,0 +1,67 @@
+#list-editor {
+  padding: 1em;
+  min-width: 600px;
+
+  .editor-row {
+    display: flex;
+    height: 120px;
+
+    img {
+      height: inherit;
+      min-width: 160px;
+      max-width: 160px;
+      margin-right: 1em;
+      border-radius: 5%;
+    }
+
+    .coffee-data {
+      flex: 1 1 auto;
+      width: 0;
+
+      >.ui.horizontal.segments {
+        width: 100%;
+
+        .title-segment {
+          width: 25%;
+          min-width: 25%;
+          flex: 0 1 auto;
+        }
+
+        .break-word {
+          word-break: break-word;
+          max-height: 3em;
+          overflow: hidden;
+        }
+      }
+
+      .ui.labeled.input {
+        width: 100%;
+
+        .left.corner>i {
+          color: lightcoral;
+        }
+      }
+
+    }
+
+    >.ui.button.coffee-delete-button {
+      position: absolute;
+      right: 0.5em;
+      top: 0.7em;
+      border-radius: 50%;
+      background: lightpink;
+      color: darkred;
+    }
+
+    >.ui.button.coffee-save-button {
+      @extend .coffee-delete-button;
+      background: forestgreen;
+      color: white;
+
+      &.disabled {
+        background: lightgray;
+        opacity: 1 !important;
+      }
+    }
+  }
+}

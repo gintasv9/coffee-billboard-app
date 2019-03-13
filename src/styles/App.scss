@@ -1,0 +1,19 @@
+body {
+  background-color: ghostwhite;
+  overflow: hidden;
+}
+
+#main {
+  height: 100vh;
+  padding-top: 40px;
+  overflow: auto;
+}
+
+#command-bar {
+  padding: 0 1.5em;
+
+  img {
+    width: 2em;
+    align-self: center;
+  }
+}
